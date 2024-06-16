@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html.body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width:100%;
+    min-height: 60vh;
+    background-image: url(https://unsplash.com/photos/landscape-photo-of-mountain-during-nighttime-n_Jb_d8O43Qhttps://images.unsplash.com/photo-1489183988443-b37b7e119ba6?qs://images.unsplash.com/photo-1489183988443-b37b7e119ba6?qhttps://unsplash.com/photos/snow-covered-mountain-under-blue-sky-Bsf_yk3HcsE?modal=%5B%22Login%22%2C%5B%22AddToCollection%22%2C%7B%22assetRoute%22%3A%5B%22Photos%22%2C%7B%22slug%22%3A%22snow-covered-mountain-under-blue-sky-Bsf_yk3HcsE%22%7D%5D%2C%22userId%22%3A%22hjZRx672fNE%22%7D%5D%5D);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgb(19, 26, 25);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: rgb(229, 233, 225);
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://unsplash.com/photos/white-and-red-abstract-painting-9anj7QWy-2g);    
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 220px;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://unsplash.com/photos/blue-wooden-lifeguard-house-on-beach-during-daytime-sUSyTGh7QcI);
+    background-color: rgb(126, 132, 88);
+background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: antiquewhite;
+    text-align: center;
+    padding: inherit;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://unsplash.com/photos/a-row-of-wooden-benches-next-to-a-pool-AUAX9_umAgI);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: rgb(177, 33, 184);
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://unsplash.com/photos/latte-filled-black-teacup-on-top-of-book-near-brown-cup-on-window-6rvanRNA2Jc);
+    background-size: cover;
+    background-position: center;
+} 
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgb(148, 211, 215);
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://unsplash.com/photos/a-shadow-of-a-person-riding-a-skateboard-ZoqNZQB0sFM);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+}
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .be .overlay{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 30vh;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b2 up{
+        min-height: 40vh;
+    }
+    .b3{
+        width:100%;
+        min-height: 30vh;
+        background-position: left;
+    }
+ 
